@@ -1,0 +1,13 @@
+{
+  "name": "MindBody Duplicate Name Looker-Uper",
+  "manifest_version": 2,
+  "version": "1.0",
+  "description": "Lookup duplicate names in mind-body schedules.",
+  "browser_action": {
+    "default_popup": "lookup-duplicates.html",
+    "default_icon": "icon.png"
+  },
+  "permissions": [
+    "tabs", "http://*/*", "https://*/*"
+  ]
+}
